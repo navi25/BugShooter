@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{37178AE3-C1E9-9395-040E-B76A96EB0BAB}") = "Hitting_the_target_template - android - Copy - Copy", "Assembly-CSharp.csproj", "{A876346C-453D-56B2-DF87-FA7A9F7C43DB}"
+EndProject
+Project("{37178AE3-C1E9-9395-040E-B76A96EB0BAB}") = "Hitting_the_target_template - android - Copy - Copy", "Assembly-CSharp-Editor.csproj", "{376B7B39-A9BE-DB14-9E27-C92CEBA6A3A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A876346C-453D-56B2-DF87-FA7A9F7C43DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A876346C-453D-56B2-DF87-FA7A9F7C43DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A876346C-453D-56B2-DF87-FA7A9F7C43DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A876346C-453D-56B2-DF87-FA7A9F7C43DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376B7B39-A9BE-DB14-9E27-C92CEBA6A3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376B7B39-A9BE-DB14-9E27-C92CEBA6A3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376B7B39-A9BE-DB14-9E27-C92CEBA6A3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376B7B39-A9BE-DB14-9E27-C92CEBA6A3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{A876346C-453D-56B2-DF87-FA7A9F7C43DB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CallNativeCode.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\EventSystemChecker.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\Pause.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\PlayMusic.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\QuitApplication.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\SetAudioLevels.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\ShowPanels.cs" />
+     <Compile Include="Assets\Game Jam Menu Template\Scripts\StartOptions.cs" />
+     <Compile Include="Assets\Gamestrap UI\Effects\GradientEffect.cs" />
+     <Compile Include="Assets\Gamestrap UI\Effects\ShadowEffect.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Global\Scripts\ESceneNames.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Global\Scripts\GSAppExampleControl.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Global\Scripts\SceneTransitionsButton.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Screens\Gameplay\GameplayUI.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Screens\Levels\LevelsControl.cs" />
+     <Compile Include="Assets\Gamestrap UI\Examples\Complete Project\Screens\Main Menu\MainMenuControl.cs" />
+     <Compile Include="Assets\Gamestrap UI\Helper Scripts\ButtonShowHide.cs" />
+     <Compile Include="Assets\Gamestrap UI\Helper Scripts\ToggleButtonIcon.cs" />
+     <Compile Include="Assets\Prefabs\Package\ProjectileFlow.cs" />
+     <Compile Include="Assets\Scripts\CameraFit.cs" />
+     <Compile Include="Assets\Scripts\ProjectileDragging.cs" />
+     <Compile Include="Assets\Scripts\ProjectileFollow.cs" />
+     <Compile Include="Assets\Scripts\ProjectileThrow.cs" />
+     <Compile Include="Assets\Scripts\Resetter.cs" />
+     <Compile Include="Assets\Scripts\birdDie.cs" />
+     <Compile Include="Assets\Scripts\cannonScript.cs" />
+     <Compile Include="Assets\Scripts\collisionScript.cs" />
+     <Compile Include="Assets\Scripts\screenChange.cs" />
+     <Compile Include="Assets\Scripts\sliderValues.cs" />
+     <Compile Include="Assets\UI_behaviour_Script.cs" />
+     <Compile Include="Assets\activate.cs" />
+     <Compile Include="Assets\tableScript.cs" />
+     <Compile Include="Assets\transformScript.cs" />
+     <None Include="Assets\Gamestrap UI\Fonts\ubuntu\UBUNTU FONT LICENCE.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Bebas\Flat-it License.txt" />
+     <None Include="Assets\UI - BUILDER\Source Files\Fonts\OpenSans-Familiy\OpenSansLic.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Monospace\README.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Basis33\LICENSE.txt" />
+     <None Include="Assets\Prefabs\shablagoo - Copy\shablagoo.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\PixelFJ8pt1\peace,...txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Lato\SIL Open Font License.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\OpenSans\LICENSE.txt" />
+     <None Include="Assets\Game Jam Menu Template\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Basis33\README.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Polaris\FontInfo.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Bigfish\FontInfo.txt" />
+     <None Include="Assets\Game Jam Menu Template\GameJamTemplateReadMe.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

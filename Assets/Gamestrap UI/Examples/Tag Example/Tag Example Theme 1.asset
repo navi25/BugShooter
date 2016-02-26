@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c7b1bc6b229db43a8f98bd0e9669da, type: 3}
+  m_Name: Tag Example Theme 1
+  m_EditorClassIdentifier: 
+  palette:
+  - name: 
+    tag: Respawn
+    normal: {r: 1, g: 1, b: 1, a: 1}
+    highlighted: {r: 1, g: 1, b: 1, a: 1}
+    pressed: {r: .399999976, g: .399999976, b: .399999976, a: 1}
+    disabled: {r: .87843138, g: .87843138, b: .87843138, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: 
+    tag: Finish
+    normal: {r: .835294127, g: .765976012, b: .484798163, a: 1}
+    highlighted: {r: .884705901, g: .83618319, b: .639358699, a: 1}
+    pressed: {r: .334117621, g: .306390375, b: .193919256, a: 1}
+    disabled: {r: .87843138, g: .87843138, b: .87843138, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: Play Now
+    tag: MainCamera
+    normal: {r: .118108414, g: .469966263, b: .627451003, a: 1}
+    highlighted: {r: .382675886, g: .628976405, b: .739215732, a: 1}
+    pressed: {r: .0472433642, g: .187986493, b: .250980377, a: 1}
+    disabled: {r: .87843138, g: .87843138, b: .87843138, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: Default Button
+    tag: Player
+    normal: {r: .188554049, g: .103344865, b: .376470596, a: 1}
+    highlighted: {r: .431987852, g: .372341424, b: .563529432, a: 1}
+    pressed: {r: .0754216164, g: .0413379446, b: .150588229, a: 1}
+    disabled: {r: .87843138, g: .87843138, b: .87843138, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  - name: Background
+    tag: GameController
+    normal: {r: .200000003, g: .200000003, b: .200000003, a: 1}
+    highlighted: {r: .439999998, g: .439999998, b: .439999998, a: 1}
+    pressed: {r: .0799999982, g: .0799999982, b: .0799999982, a: 1}
+    disabled: {r: .87843138, g: .87843138, b: .87843138, a: 1}
+    detail: {r: 1, g: 1, b: 1, a: 1}
+  effectSets:
+  - name: Play Now
+    tag: MainCamera
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
+    shadow: 1
+    shadowColor: {r: .0431372561, g: .176470593, b: .235294119, a: 1}
+    shadowOffset: {x: 0, y: -2}
+  - name: Default Button
+    tag: Player
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
+    shadow: 1
+    shadowColor: {r: .0745098069, g: .0431372561, b: .149019614, a: 1}
+    shadowOffset: {x: 0, y: -2}
+  - name: Icon
+    tag: 
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
+    shadow: 0
+    shadowColor: {r: 0, g: 0, b: 0, a: 1}
+    shadowOffset: {x: 2, y: -2}
+  - name: Background
+    tag: GameController
+    gradient: 0
+    gradientTop: {r: 1, g: 1, b: 1, a: 1}
+    gradientBottom: {r: 0, g: 0, b: 0, a: 1}
+    shadow: 0
+    shadowColor: {r: 0, g: 0, b: 0, a: 1}
+    shadowOffset: {x: 2, y: -2}

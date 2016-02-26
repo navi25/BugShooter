@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{0AA5008B-56E4-B34B-87E1-4ECC2F76A668}") = "Hitting_the_target_template - Copy", "Assembly-CSharp.csproj", "{51E43165-2D59-DDFA-5A60-BBC36DF1A373}"
+EndProject
+Project("{0AA5008B-56E4-B34B-87E1-4ECC2F76A668}") = "Hitting_the_target_template - Copy", "Assembly-CSharp-Editor.csproj", "{0791FA41-8B0C-0452-4C98-7E0934600ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E43165-2D59-DDFA-5A60-BBC36DF1A373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E43165-2D59-DDFA-5A60-BBC36DF1A373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E43165-2D59-DDFA-5A60-BBC36DF1A373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E43165-2D59-DDFA-5A60-BBC36DF1A373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0791FA41-8B0C-0452-4C98-7E0934600ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0791FA41-8B0C-0452-4C98-7E0934600ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0791FA41-8B0C-0452-4C98-7E0934600ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0791FA41-8B0C-0452-4C98-7E0934600ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																																																																		GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
